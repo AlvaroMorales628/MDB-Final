@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		1F393FFE24206F9800A2E870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F393FFD24206F9800A2E870 /* AppDelegate.swift */; };
 		1F39400024206F9800A2E870 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F393FFF24206F9800A2E870 /* SceneDelegate.swift */; };
-		1F39400224206F9800A2E870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39400124206F9800A2E870 /* ViewController.swift */; };
-		1F39400524206F9800A2E870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F39400324206F9800A2E870 /* Main.storyboard */; };
 		1F39400724206F9C00A2E870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F39400624206F9C00A2E870 /* Assets.xcassets */; };
 		1F39400A24206F9C00A2E870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F39400824206F9C00A2E870 /* LaunchScreen.storyboard */; };
+		1F39401D24206FC400A2E870 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39401224206FC400A2E870 /* DataModel.swift */; };
+		1F39401E24206FC400A2E870 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39401324206FC400A2E870 /* APIManager.swift */; };
+		1F39401F24206FC400A2E870 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39401424206FC400A2E870 /* APIResponse.swift */; };
+		1F39402024206FC400A2E870 /* CoronaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39401524206FC400A2E870 /* CoronaData.swift */; };
+		1F39402224206FC400A2E870 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39401824206FC400A2E870 /* DetailViewController.swift */; };
+		1F39402324206FC400A2E870 /* CoronaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39401924206FC400A2E870 /* CoronaTableViewController.swift */; };
+		1F39402424206FC400A2E870 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39401A24206FC400A2E870 /* CountryListViewController.swift */; };
+		1F39402524206FC400A2E870 /* CoronaDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39401C24206FC400A2E870 /* CoronaDataTableViewCell.swift */; };
+		1F39402724206FD500A2E870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F39402624206FD500A2E870 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F393FFA24206F9800A2E870 /* FinalExam_Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalExam_Starter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F393FFD24206F9800A2E870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F393FFF24206F9800A2E870 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F39400124206F9800A2E870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F39400424206F9800A2E870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F39400624206F9C00A2E870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F39400924206F9C00A2E870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F39400B24206F9C00A2E870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F39401224206FC400A2E870 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		1F39401324206FC400A2E870 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		1F39401424206FC400A2E870 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		1F39401524206FC400A2E870 /* CoronaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoronaData.swift; sourceTree = "<group>"; };
+		1F39401824206FC400A2E870 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1F39401924206FC400A2E870 /* CoronaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoronaTableViewController.swift; sourceTree = "<group>"; };
+		1F39401A24206FC400A2E870 /* CountryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		1F39401C24206FC400A2E870 /* CoronaDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoronaDataTableViewCell.swift; sourceTree = "<group>"; };
+		1F39402624206FD500A2E870 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,46 @@
 		1F393FFC24206F9800A2E870 /* FinalExam_Starter */ = {
 			isa = PBXGroup;
 			children = (
+				1F39402624206FD500A2E870 /* Main.storyboard */,
+				1F39401624206FC400A2E870 /* Controllers */,
+				1F39401124206FC400A2E870 /* Model */,
+				1F39401B24206FC400A2E870 /* Views */,
 				1F393FFD24206F9800A2E870 /* AppDelegate.swift */,
 				1F393FFF24206F9800A2E870 /* SceneDelegate.swift */,
-				1F39400124206F9800A2E870 /* ViewController.swift */,
-				1F39400324206F9800A2E870 /* Main.storyboard */,
 				1F39400624206F9C00A2E870 /* Assets.xcassets */,
 				1F39400824206F9C00A2E870 /* LaunchScreen.storyboard */,
 				1F39400B24206F9C00A2E870 /* Info.plist */,
 			);
 			path = FinalExam_Starter;
+			sourceTree = "<group>";
+		};
+		1F39401124206FC400A2E870 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F39401224206FC400A2E870 /* DataModel.swift */,
+				1F39401324206FC400A2E870 /* APIManager.swift */,
+				1F39401424206FC400A2E870 /* APIResponse.swift */,
+				1F39401524206FC400A2E870 /* CoronaData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F39401624206FC400A2E870 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F39401824206FC400A2E870 /* DetailViewController.swift */,
+				1F39401924206FC400A2E870 /* CoronaTableViewController.swift */,
+				1F39401A24206FC400A2E870 /* CountryListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1F39401B24206FC400A2E870 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F39401C24206FC400A2E870 /* CoronaDataTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +172,7 @@
 			files = (
 				1F39400A24206F9C00A2E870 /* LaunchScreen.storyboard in Resources */,
 				1F39400724206F9C00A2E870 /* Assets.xcassets in Resources */,
-				1F39400524206F9800A2E870 /* Main.storyboard in Resources */,
+				1F39402724206FD500A2E870 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +183,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F39400224206F9800A2E870 /* ViewController.swift in Sources */,
+				1F39402224206FC400A2E870 /* DetailViewController.swift in Sources */,
+				1F39401D24206FC400A2E870 /* DataModel.swift in Sources */,
+				1F39402524206FC400A2E870 /* CoronaDataTableViewCell.swift in Sources */,
+				1F39401E24206FC400A2E870 /* APIManager.swift in Sources */,
 				1F393FFE24206F9800A2E870 /* AppDelegate.swift in Sources */,
+				1F39402424206FC400A2E870 /* CountryListViewController.swift in Sources */,
 				1F39400024206F9800A2E870 /* SceneDelegate.swift in Sources */,
+				1F39402324206FC400A2E870 /* CoronaTableViewController.swift in Sources */,
+				1F39401F24206FC400A2E870 /* APIResponse.swift in Sources */,
+				1F39402024206FC400A2E870 /* CoronaData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1F39400324206F9800A2E870 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F39400424206F9800A2E870 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F39400824206F9C00A2E870 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
